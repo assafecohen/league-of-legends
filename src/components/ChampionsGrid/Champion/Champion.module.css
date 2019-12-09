@@ -38,7 +38,12 @@
   font-weight: 500;
   cursor: pointer;
 }
-
+.tooltip {
+  background-color: pink;
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 1px;
+  font-size: 11px;
+}
 
 @media (max-width: 960px){
   .Avatar {
@@ -46,7 +51,7 @@
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
   .Avatar {
     flex: 1 0 40%;
   }
