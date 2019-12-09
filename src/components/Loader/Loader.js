@@ -5,8 +5,8 @@ const LoadChampions = () => {
   return (
     <div>
        <Loader
-         type="BallTriangle"
-         color="#E4EAB2"
+         type="Grid"
+         color="#000099"
          height={200}
          width={200}
          timeout={500000}      />

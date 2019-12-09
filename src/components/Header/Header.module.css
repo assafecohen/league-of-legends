@@ -18,6 +18,10 @@
   color: #fff;
   text-shadow: 5px 4px 1px #222;;
 }
+.HeaderTitle:hover{
+  cursor:default ;
+}
+default
 
 @media (max-width: 960px){
   .HeaderTitle{
