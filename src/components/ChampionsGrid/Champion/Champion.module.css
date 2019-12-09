@@ -1,7 +1,7 @@
 .Avatar {
   vertical-align: middle;
   position: relative;
-  flex: 1 0 15%;
+  flex: 0 0 15%;
   height: 120px;
   border: 1px solid gray;
 }
@@ -47,13 +47,13 @@
 
 @media (max-width: 960px){
   .Avatar {
-    flex: 1 0 21%;
+    flex: 0 0 21%;
   }
 }
 
 @media (max-width: 500px){
   .Avatar {
-    flex: 1 0 40%;
+    flex: 0 0 40%;
   }
 }
 

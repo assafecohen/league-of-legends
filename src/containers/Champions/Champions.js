@@ -8,19 +8,19 @@ class Champions extends Component {
   }
   componentDidMount() {
     axios
-    .get('https://api.myjson.com/bins/ggj4o')
-    .then(response => (
-      this.setState({champions: response.data})
-    ))
-    .catch(errors => console.log('errors'))
+      .get('https://api.myjson.com/bins/ggj4o')
+      .then(response => (
+        this.setState({ champions: response.data })
+      ))
+      .catch(errors => console.log('errors'))
   }
-  
+
 
   render() {
 
     return (
       <div >
-        <ChampionsGrid champions={this.state.champions}/>
+        <ChampionsGrid champions={this.state.champions} />
       </div>
     );
   }

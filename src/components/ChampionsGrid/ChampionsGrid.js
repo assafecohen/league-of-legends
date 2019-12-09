@@ -14,8 +14,12 @@ const ChampionsGrid = (props) => {
   } 
 
   return (
-    <div className= {classes.ChampionsGrid}>
-      {championsIcons ? championsIcons : <LoadChampions/>}
+    <div>
+       {championsIcons ? (
+       <div className= {classes.ChampionsGrid}> {championsIcons} </div> ) 
+        :(
+          <LoadChampions/>
+        )}
     </div>
   );
 }
