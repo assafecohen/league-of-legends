@@ -1,0 +1,48 @@
+.Avatar {
+  vertical-align: middle;
+  position: relative;
+  flex: 1 0 15%;
+  height: 120px;
+  border: 1px solid gray;
+}
+.AvatarImage{
+  width: 81px;
+  height: 81px;
+  opacity:0.8;
+  filter: grayscale(60%);
+  padding: 10px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.AvatarImage:hover{
+  opacity:1;
+  filter: brightness(140%);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+.AvatarImage:hover ~ .Avatar{
+  background: blue;
+}
+.AvatarName{
+  margin: 0;
+  line-height: 13.7;
+  
+}
+.AvatarName:hover{
+  color: #00918a;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+@media (max-width: 960px){
+  .Avatar {
+    flex: 1 0 21%;
+  }
+}
+

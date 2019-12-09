@@ -1,0 +1,7 @@
+.ChampionsGrid{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: auto;
+  justify-content: center;
+}

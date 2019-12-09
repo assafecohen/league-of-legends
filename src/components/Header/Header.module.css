@@ -1,0 +1,26 @@
+.Header{
+  height:275px;
+}
+.HeaderCoverImage{
+  position: absolute;
+  background: url('../../assets/coverImage.jpg')  no-repeat 50%;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  opacity: .6;
+  z-index: -1;
+}
+.HeaderTitle{
+  margin: 0;
+  padding: 0;
+  line-height: 3;
+  font-size: 72px;
+  color: #fff;
+  text-shadow: 5px 4px 1px #222;;
+}
+
+@media (max-width: 960px){
+  .HeaderTitle{
+     font-size: 54px;
+  }
+}
