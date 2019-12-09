@@ -46,3 +46,10 @@
   }
 }
 
+@media (max-width: 400px){
+  .Avatar {
+    flex: 1 0 40%;
+  }
+}
+
+

@@ -24,3 +24,9 @@
      font-size: 54px;
   }
 }
+@media (max-width: 400px){
+  .HeaderTitle{
+    font-size: 36px;
+    line-height: 6;
+  }
+}
