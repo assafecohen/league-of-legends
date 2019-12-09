@@ -7,8 +7,8 @@ const LoadChampions = () => {
        <Loader
          type="Grid"
          color="#000099"
-         height={200}
-         width={200}
+         height={350}
+         width={350}
          timeout={500000}      />
     </div>
   );

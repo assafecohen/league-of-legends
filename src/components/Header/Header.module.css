@@ -21,7 +21,6 @@
 .HeaderTitle:hover{
   cursor:default ;
 }
-default
 
 @media (max-width: 960px){
   .HeaderTitle{
